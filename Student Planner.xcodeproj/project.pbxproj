@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AE758081FE1A64E006133F5 /* plan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AE758071FE1A64E006133F5 /* plan.png */; };
+		CD11662F1AA1C47900F35F9D /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = CD11662E1AA1C47900F35F9D /* Task.m */; };
+		CDA4CC8A1AA19142006ABE61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA4CC891AA19142006ABE61 /* main.m */; };
+		CDA4CC8D1AA19142006ABE61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA4CC8C1AA19142006ABE61 /* AppDelegate.m */; };
+		CDA4CC901AA19142006ABE61 /* AppointDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDA4CC8E1AA19142006ABE61 /* AppointDemo.xcdatamodeld */; };
+		CDA4CC931AA19142006ABE61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA4CC921AA19142006ABE61 /* ViewController.m */; };
+		CDA4CC961AA19142006ABE61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA4CC941AA19142006ABE61 /* Main.storyboard */; };
+		CDA4CC981AA19142006ABE61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA4CC971AA19142006ABE61 /* Images.xcassets */; };
+		CDA4CC9B1AA19142006ABE61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA4CC991AA19142006ABE61 /* LaunchScreen.xib */; };
+		CDA4CCB61AA19225006ABE61 /* TaskTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA4CCB51AA19225006ABE61 /* TaskTableViewController.m */; };
+		CDA4CCBB1AA1927F006ABE61 /* ADAppointmentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA4CCB91AA1927F006ABE61 /* ADAppointmentTableViewCell.m */; };
+		CDA4CCBC1AA1927F006ABE61 /* ADAppointmentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA4CCBA1AA1927F006ABE61 /* ADAppointmentTableViewCell.xib */; };
+		CDA4CCC81AA1ACB3006ABE61 /* SubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA4CCC71AA1ACB3006ABE61 /* SubjectViewController.m */; };
+		CDA4CCCB1AA1AFD6006ABE61 /* TaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA4CCCA1AA1AFD6006ABE61 /* TaskDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDA4CCA11AA19142006ABE61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA4CC7C1AA19142006ABE61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA4CC831AA19142006ABE61;
+			remoteInfo = AppointDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AE758071FE1A64E006133F5 /* plan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plan.png; sourceTree = "<group>"; };
+		CD11662D1AA1C47900F35F9D /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Task.h; path = Models/Task/Task.h; sourceTree = "<group>"; };
+		CD11662E1AA1C47900F35F9D /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Task.m; path = Models/Task/Task.m; sourceTree = "<group>"; };
+		CDA4CC841AA19142006ABE61 /* Student Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA4CC881AA19142006ABE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA4CC891AA19142006ABE61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDA4CC8B1AA19142006ABE61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDA4CC8C1AA19142006ABE61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDA4CC8F1AA19142006ABE61 /* AppointDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppointDemo.xcdatamodel; sourceTree = "<group>"; };
+		CDA4CC911AA19142006ABE61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDA4CC921AA19142006ABE61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDA4CC951AA19142006ABE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDA4CC971AA19142006ABE61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CDA4CC9A1AA19142006ABE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CDA4CCA01AA19142006ABE61 /* Student PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Student PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA4CCB41AA19225006ABE61 /* TaskTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskTableViewController.h; sourceTree = "<group>"; };
+		CDA4CCB51AA19225006ABE61 /* TaskTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskTableViewController.m; sourceTree = "<group>"; };
+		CDA4CCB81AA1927F006ABE61 /* ADAppointmentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAppointmentTableViewCell.h; sourceTree = "<group>"; };
+		CDA4CCB91AA1927F006ABE61 /* ADAppointmentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAppointmentTableViewCell.m; sourceTree = "<group>"; };
+		CDA4CCBA1AA1927F006ABE61 /* ADAppointmentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADAppointmentTableViewCell.xib; sourceTree = "<group>"; };
+		CDA4CCC61AA1ACB3006ABE61 /* SubjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectViewController.h; sourceTree = "<group>"; };
+		CDA4CCC71AA1ACB3006ABE61 /* SubjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectViewController.m; sourceTree = "<group>"; };
+		CDA4CCC91AA1AFD6006ABE61 /* TaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailViewController.h; sourceTree = "<group>"; };
+		CDA4CCCA1AA1AFD6006ABE61 /* TaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDA4CC811AA19142006ABE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA4CC9D1AA19142006ABE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDA4CC7B1AA19142006ABE61 = {
+			isa = PBXGroup;
+			children = (
+				CDA4CC861AA19142006ABE61 /* StudentPlanner */,
+				CDA4CC851AA19142006ABE61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA4CC851AA19142006ABE61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDA4CC841AA19142006ABE61 /* Student Planner.app */,
+				CDA4CCA01AA19142006ABE61 /* Student PlannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA4CC861AA19142006ABE61 /* StudentPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				CDA4CCB01AA191DD006ABE61 /* Controllers */,
+				CDA4CCB11AA191DD006ABE61 /* Models */,
+				CDA4CCB21AA191DD006ABE61 /* Views */,
+				CDA4CC8B1AA19142006ABE61 /* AppDelegate.h */,
+				CDA4CC8C1AA19142006ABE61 /* AppDelegate.m */,
+				CDA4CC911AA19142006ABE61 /* ViewController.h */,
+				CDA4CC921AA19142006ABE61 /* ViewController.m */,
+				CDA4CC941AA19142006ABE61 /* Main.storyboard */,
+				CDA4CC971AA19142006ABE61 /* Images.xcassets */,
+				CDA4CC991AA19142006ABE61 /* LaunchScreen.xib */,
+				CD11662D1AA1C47900F35F9D /* Task.h */,
+				CD11662E1AA1C47900F35F9D /* Task.m */,
+				CDA4CC871AA19142006ABE61 /* Supporting Files */,
+			);
+			path = StudentPlanner;
+			sourceTree = "<group>";
+		};
+		CDA4CC871AA19142006ABE61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AE758071FE1A64E006133F5 /* plan.png */,
+				CDA4CC881AA19142006ABE61 /* Info.plist */,
+				CDA4CC891AA19142006ABE61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDA4CCB01AA191DD006ABE61 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CDA4CCBE1AA1A9F1006ABE61 /* TaskDetailViewController */,
+				CDA4CCBF1AA1A9F1006ABE61 /* SubjectViewController */,
+				CDA4CCB31AA1920D006ABE61 /* TaskTableViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CDA4CCB11AA191DD006ABE61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDA4CC8E1AA19142006ABE61 /* AppointDemo.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDA4CCB21AA191DD006ABE61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDA4CCB71AA19266006ABE61 /* ADAppointmentTableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDA4CCB31AA1920D006ABE61 /* TaskTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CDA4CCB41AA19225006ABE61 /* TaskTableViewController.h */,
+				CDA4CCB51AA19225006ABE61 /* TaskTableViewController.m */,
+			);
+			path = TaskTableViewController;
+			sourceTree = "<group>";
+		};
+		CDA4CCB71AA19266006ABE61 /* ADAppointmentTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CDA4CCB81AA1927F006ABE61 /* ADAppointmentTableViewCell.h */,
+				CDA4CCB91AA1927F006ABE61 /* ADAppointmentTableViewCell.m */,
+				CDA4CCBA1AA1927F006ABE61 /* ADAppointmentTableViewCell.xib */,
+			);
+			path = ADAppointmentTableViewCell;
+			sourceTree = "<group>";
+		};
+		CDA4CCBE1AA1A9F1006ABE61 /* TaskDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CDA4CCC91AA1AFD6006ABE61 /* TaskDetailViewController.h */,
+				CDA4CCCA1AA1AFD6006ABE61 /* TaskDetailViewController.m */,
+			);
+			path = TaskDetailViewController;
+			sourceTree = "<group>";
+		};
+		CDA4CCBF1AA1A9F1006ABE61 /* SubjectViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CDA4CCC61AA1ACB3006ABE61 /* SubjectViewController.h */,
+				CDA4CCC71AA1ACB3006ABE61 /* SubjectViewController.m */,
+			);
+			path = SubjectViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDA4CC831AA19142006ABE61 /* Student Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA4CCAA1AA19142006ABE61 /* Build configuration list for PBXNativeTarget "Student Planner" */;
+			buildPhases = (
+				CDA4CC801AA19142006ABE61 /* Sources */,
+				CDA4CC811AA19142006ABE61 /* Frameworks */,
+				CDA4CC821AA19142006ABE61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Student Planner";
+			productName = AppointDemo;
+			productReference = CDA4CC841AA19142006ABE61 /* Student Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDA4CC9F1AA19142006ABE61 /* Student PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA4CCAD1AA19142006ABE61 /* Build configuration list for PBXNativeTarget "Student PlannerTests" */;
+			buildPhases = (
+				CDA4CC9C1AA19142006ABE61 /* Sources */,
+				CDA4CC9D1AA19142006ABE61 /* Frameworks */,
+				CDA4CC9E1AA19142006ABE61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA4CCA21AA19142006ABE61 /* PBXTargetDependency */,
+			);
+			name = "Student PlannerTests";
+			productName = AppointDemoTests;
+			productReference = CDA4CCA01AA19142006ABE61 /* Student PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDA4CC7C1AA19142006ABE61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = UHCL;
+				TargetAttributes = {
+					CDA4CC831AA19142006ABE61 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CDA4CC9F1AA19142006ABE61 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CDA4CC831AA19142006ABE61;
+					};
+				};
+			};
+			buildConfigurationList = CDA4CC7F1AA19142006ABE61 /* Build configuration list for PBXProject "Student Planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDA4CC7B1AA19142006ABE61;
+			productRefGroup = CDA4CC851AA19142006ABE61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDA4CC831AA19142006ABE61 /* Student Planner */,
+				CDA4CC9F1AA19142006ABE61 /* Student PlannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDA4CC821AA19142006ABE61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA4CC961AA19142006ABE61 /* Main.storyboard in Resources */,
+				4AE758081FE1A64E006133F5 /* plan.png in Resources */,
+				CDA4CC9B1AA19142006ABE61 /* LaunchScreen.xib in Resources */,
+				CDA4CCBC1AA1927F006ABE61 /* ADAppointmentTableViewCell.xib in Resources */,
+				CDA4CC981AA19142006ABE61 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA4CC9E1AA19142006ABE61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDA4CC801AA19142006ABE61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD11662F1AA1C47900F35F9D /* Task.m in Sources */,
+				CDA4CCCB1AA1AFD6006ABE61 /* TaskDetailViewController.m in Sources */,
+				CDA4CCB61AA19225006ABE61 /* TaskTableViewController.m in Sources */,
+				CDA4CC901AA19142006ABE61 /* AppointDemo.xcdatamodeld in Sources */,
+				CDA4CCBB1AA1927F006ABE61 /* ADAppointmentTableViewCell.m in Sources */,
+				CDA4CC8D1AA19142006ABE61 /* AppDelegate.m in Sources */,
+				CDA4CC931AA19142006ABE61 /* ViewController.m in Sources */,
+				CDA4CC8A1AA19142006ABE61 /* main.m in Sources */,
+				CDA4CCC81AA1ACB3006ABE61 /* SubjectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA4CC9C1AA19142006ABE61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDA4CCA21AA19142006ABE61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA4CC831AA19142006ABE61 /* Student Planner */;
+			targetProxy = CDA4CCA11AA19142006ABE61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDA4CC941AA19142006ABE61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA4CC951AA19142006ABE61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDA4CC991AA19142006ABE61 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA4CC9A1AA19142006ABE61 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDA4CCA81AA19142006ABE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDA4CCA91AA19142006ABE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDA4CCAB1AA19142006ABE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StudentPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uhcl.Student-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDA4CCAC1AA19142006ABE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StudentPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uhcl.Student-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDA4CCAE1AA19142006ABE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppointDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Student Planner.app/Student Planner";
+			};
+			name = Debug;
+		};
+		CDA4CCAF1AA19142006ABE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppointDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Student Planner.app/Student Planner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDA4CC7F1AA19142006ABE61 /* Build configuration list for PBXProject "Student Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA4CCA81AA19142006ABE61 /* Debug */,
+				CDA4CCA91AA19142006ABE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA4CCAA1AA19142006ABE61 /* Build configuration list for PBXNativeTarget "Student Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA4CCAB1AA19142006ABE61 /* Debug */,
+				CDA4CCAC1AA19142006ABE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA4CCAD1AA19142006ABE61 /* Build configuration list for PBXNativeTarget "Student PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA4CCAE1AA19142006ABE61 /* Debug */,
+				CDA4CCAF1AA19142006ABE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDA4CC8E1AA19142006ABE61 /* AppointDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDA4CC8F1AA19142006ABE61 /* AppointDemo.xcdatamodel */,
+			);
+			currentVersion = CDA4CC8F1AA19142006ABE61 /* AppointDemo.xcdatamodel */;
+			path = AppointDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDA4CC7C1AA19142006ABE61 /* Project object */;
+}
